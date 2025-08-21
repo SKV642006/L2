@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Eminence in Shadow | Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <a href="index.html" class="logo">Shadow<span>.</span></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="abilities.html">Abilities</a></li>
+                    <li><a href="allies.html">Allies</a></li>
+                    <li><a href="antagonists.html">Antagonists</a></li>
+                    <li><a href="timeline.html">Timeline</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact">
+            <div class="container">
+                <h2 class="section-title">Send a Missive</h2>
+                <form id="contact-form" class="contact-form">
+                    <p style="text-align:center; color: var(--text-muted); margin-bottom: 2rem;">Your message will be encrypted and delivered to a Shadow Garden operative. Discretion is assured.</p>
+                    <div class="form-group">
+                        <label for="alias">Your Alias (Codename)</label>
+                        <input type="text" id="alias" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject of Missive</label>
+                        <input type="text" id="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Encrypted Message</label>
+                        <textarea id="message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Transmit Message</button>
+                    <p id="form-response"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2024. A fan tribute to the Master of Shadows.</p>
+        </div>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
