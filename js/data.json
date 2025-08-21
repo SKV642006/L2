@@ -1,0 +1,58 @@
+{
+  "abilities": [
+    {
+      "name": "Absolute Magic Control",
+      "description": "Cid possesses unparalleled control over his magic, allowing him to manipulate it with surgical precision for healing, combat, and crafting slime suits."
+    },
+    {
+      "name": "Master Swordsmanship",
+      "description": "Having trained relentlessly in two lives, his swordsmanship is a culmination of countless styles, making him virtually unbeatable in close combat."
+    },
+    {
+      "name": "I Am Atomic",
+      "description": "His ultimate technique. By compressing an immense amount of magical energy and releasing it in a controlled explosion, he can obliterate entire cities.",
+      "is_ultimate": true
+    },
+    {
+      "name": "Tactical Deception",
+      "description": "A master of role-playing and improvisation. He effortlessly manipulates events and people to fit his 'Eminence in Shadow' persona, often by accident."
+    }
+  ],
+  "allies": [
+    {
+      "name": "Alpha",
+      "title": "The First",
+      "description": "The first member and the de facto second-in-command of Shadow Garden. A brilliant leader and strategist who manages the organization's vast operations."
+    },
+    {
+      "name": "Beta",
+      "title": "The Second",
+      "description": "A meticulous archivist and author who chronicles Shadow's 'adventures' as heroic sagas. She is deeply devoted and highly capable."
+    },
+    {
+      "name": "Gamma",
+      "title": "The Third",
+      "description": "Possessing a brilliant mind for business and logistics, Gamma is the financial backbone of Shadow Garden through the Mitsugoshi Corporation. She is notoriously clumsy in combat."
+    },
+    {
+      "name": "Delta",
+      "title": "The Fourth",
+      "description": "A beastkin with overwhelming strength and feral instincts. Her combat prowess is exceptional, though her approach is often direct and destructive."
+    },
+    {
+      "name": "Epsilon",
+      "title": "The Fifth",
+      "description": "A master of magic control, specializing in her slime bodysuit to create a 'perfect' physique. She is prideful and a fierce combatant."
+    },
+    {
+      "name": "Zeta",
+      "title": "The Sixth",
+      "description": "A beastkin spy and assassin who operates in the shadows. She is stoic, highly independent, and unquestioningly loyal to Shadow."
+    },
+    {
+      "name": "Eta",
+      "title": "The Seventh",
+      "description": "A genius architect and researcher. She is often absorbed in her work and is responsible for many of Shadow Garden's technological advancements."
+    }
+  ]
+}
